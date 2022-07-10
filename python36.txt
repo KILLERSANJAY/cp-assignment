@@ -1,0 +1,5 @@
+#36
+test_set = set("lion king")
+
+for val in test_set:
+    print(val)

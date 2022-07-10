@@ -1,0 +1,9 @@
+#17.string
+myList = [25,34,67,87,90,43]
+print("Initial List : ", myList)
+length = len(myList)
+temp = myList[0]
+myList[0] = myList[length - 1]
+myList[length - 1] = temp
+
+print("List after Swapping : ", myList)

@@ -1,0 +1,4 @@
+#14.
+words = ["hi", "hi", "hi", "welcome"]
+n_hi = words.count("hi")
+print(n_hi)
